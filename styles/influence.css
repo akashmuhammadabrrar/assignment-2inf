@@ -153,3 +153,14 @@ footer {
     flex-direction: column;
   }
 }
+/*---------------------------------- 
+Media Queries For Tablet Devicces
+---------------------------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container,
+  .main-products {
+    background-color: orange;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
